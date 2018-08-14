@@ -14,3 +14,7 @@
 
 # Testing
 - in terminal ```npm run test```
+
+# Progress
+- [x] Initial project structure
+- [ ] Implement login/auth
