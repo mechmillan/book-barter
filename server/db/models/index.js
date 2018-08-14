@@ -1,6 +1,7 @@
-const User = require('./user');
-const UserRating = require('./user-rating');
-const Shipments = require('./shipments');
+const User = require("./user");
+const UserRating = require("./user-rating");
+const Shipments = require("./shipments");
+const WantedBooks = require("./wanted-books");
 
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -18,5 +19,6 @@ const Shipments = require('./shipments');
 module.exports = {
   User,
   UserRating,
-  Shipments
-}
+  Shipments,
+  WantedBooks
+};
