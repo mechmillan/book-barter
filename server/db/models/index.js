@@ -4,6 +4,7 @@ const Shipments = require("./shipments");
 const WantedBooks = require("./wanted-books");
 const UserBooks = require("./user-books");
 const Messages = require("./messages");
+const Books = require("./books");
 
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -18,11 +19,13 @@ const Messages = require("./messages");
  * for example, we can say: const {User} = require('../db/models')
  * instead of: const User = require('../db/models/user')
  */
+
 module.exports = {
   User,
   UserRating,
   Shipments,
   WantedBooks,
   UserBooks,
-  Messages
+  Messages,
+  Books
 };
