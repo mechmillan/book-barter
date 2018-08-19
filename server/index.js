@@ -64,7 +64,7 @@ passport.deserializeUser((id, done) => {
 
 // mount routes
 app.use("/auth", require("./auth"));
-app.use("/api", require("./apiRoutes"));
+app.use("/api", require("./api"));
 
 // after all routes in server entry file
 // send index.html for any requests that don't match our API routes
