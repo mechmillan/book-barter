@@ -1,13 +1,15 @@
 # Built With
+- Enzyme
+- Express
+- Flow types
+- Jest
+- Node
+- Passport
 - React
 - Redux
-- Node
-- Express
-- Passport
+- Redux Saga
 - Sequelize/Postgres
-- Chai
-- Mocha
-- Enzyme
+- Storybook
 
 # How to run
 - in terminal ```npm run start-dev``` for development mode
