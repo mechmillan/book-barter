@@ -1,4 +1,4 @@
-import React from "react"; // needed for JSX
+import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
