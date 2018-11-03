@@ -1,4 +1,5 @@
-# Built With
+# Tech used
+
 - Enzyme
 - Express
 - Flow types
@@ -10,13 +11,17 @@
 - Redux Saga
 - Sequelize/Postgres
 - Storybook
+- styled-components
 
 # How to run
-- in terminal ```npm run start-dev``` for development mode
+
+- in terminal `npm run start-dev` for development mode
 
 # Testing
-- in terminal ```npm run test```
+
+- in terminal `npm run test`
 
 # Progress
-- [x] Initial project structure
+
+- [x] Initial project architecture setups
 - [ ] Implement login/auth
