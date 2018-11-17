@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
+import { Wrapper } from "./Home.css";
+
 class Home extends Component {
   render() {
-    return (
-      <p>Home page</p>
-    );
+    return <Wrapper>Home page</Wrapper>;
   }
 }
 
