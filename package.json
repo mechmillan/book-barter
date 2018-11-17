@@ -17,20 +17,20 @@
     "connect-session-sequelize": "6.0.0",
     "express": "4.16.4",
     "express-session": "1.15.6",
-    "lodash": "4.17.11",
+    "lodash-es": "4.17.11",
     "passport": "0.4.0",
     "passport-google-oauth": "1.0.0",
-    "pg": "7.6.0",
+    "pg": "7.6.1",
     "pg-hstore": "2.3.2",
-    "react": "16.6.0",
-    "react-dom": "16.6.0",
-    "react-redux": "5.1.0",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-redux": "5.1.1",
     "react-router-dom": "4.3.1",
     "redux": "4.0.1",
     "redux-logger": "3.0.6",
     "redux-saga": "0.16.2",
-    "sequelize": "4.41.0",
-    "styled-components": "4.0.3"
+    "sequelize": "4.41.2",
+    "styled-components": "4.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.1.2",
@@ -52,12 +52,12 @@
     "babel-plugin-styled-components": "1.8.0",
     "css-loader": "1.0.1",
     "enzyme": "3.7.0",
-    "enzyme-adapter-react-16": "1.6.0",
+    "enzyme-adapter-react-16": "1.7.0",
     "jest": "23.6.0",
     "morgan": "1.9.1",
     "style-loader": "0.23.1",
     "supertest": "3.3.0",
-    "webpack": "4.24.0",
+    "webpack": "4.25.1",
     "webpack-cli": "3.1.2"
   }
 }
