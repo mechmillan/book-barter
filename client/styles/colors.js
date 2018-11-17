@@ -1,0 +1,9 @@
+export const HARRY = "#F7F9F9";
+export const RON = "#BED8D4";
+export const HERMIONE = "#78D5D7";
+export const TRANSPARENT = "rgba(0,0,0,0)";
+export const HAGRID = "#63D2FF";
+export const DUMBLEDORE = "#2081C3";
+export const DOBBY = "#9CFCE7";
+export const MALFOY = "#7AFFFA";
+export const LUNA = "#40E2E8";
