@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { Link } from "react-router-dom";
 
 export const Nav = styled.nav`
@@ -22,6 +23,7 @@ export const ButtonLink = styled(Link)`
   justify-content: center;
   margin: 10px 5px;
   padding: 0 10px;
+  text-transform: uppercase;
 
   &:hover {
     background-color: dodgerblue;

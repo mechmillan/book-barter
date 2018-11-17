@@ -9,7 +9,7 @@ const Navbar = () => {
     <Router>
       <>
         <Nav>
-          <ButtonLink to="/home">BookBarter</ButtonLink>
+          <ButtonLink to="/home">Book Barter</ButtonLink>
           <ButtonLink to="/my-books">My Books</ButtonLink>
           <ButtonLink to="/looking-for">Looking For</ButtonLink>
           <ButtonLink to="/login">Login</ButtonLink>
