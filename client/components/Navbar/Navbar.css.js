@@ -14,11 +14,12 @@ export const Nav = styled.nav`
 
 export const ButtonLink = styled(Link)`
   align-items: center;
-  background-color: ${Color.HAGRID};
+  background-color: ${Color.RON};
   border-radius: 3px;
   display: flex;
   font-size: 12px;
-  font-weight: 200;
+  font-weight: bolder;
+  flex-wrap: wrap;
   height: 25px;
   justify-content: center;
   margin: 10px 5px;
@@ -26,7 +27,7 @@ export const ButtonLink = styled(Link)`
   text-transform: uppercase;
 
   &:hover {
-    background-color: ${Color.RON};
+    background-color: ${Color.HAGRID};
     cursor: pointer;
   }
 
