@@ -9,4 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     background: lightgrey;
   }
+
+  a {
+    text-decoration: none;
+  }
 `;
