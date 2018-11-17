@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import { Color } from "../../styles";
+
 export const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
@@ -7,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     margin: 0;
-    background: lightgrey;
+    background: ${Color.HARRY};
   }
 
   a {

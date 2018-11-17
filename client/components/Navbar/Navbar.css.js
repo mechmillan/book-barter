@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 import { Link } from "react-router-dom";
 
+import { Color } from "../../styles";
+
 export const Nav = styled.nav`
   display: flex;
-  border: 1px solid black;
+  background-color: ${Color.DUMBLEDORE};
   flex-direction: row;
   justify-content: space-evenly;
   height: 50px;
@@ -12,10 +14,8 @@ export const Nav = styled.nav`
 
 export const ButtonLink = styled(Link)`
   align-items: center;
-  background-color: none;
+  background-color: ${Color.HAGRID};
   border-radius: 3px;
-  border: 1px solid grey;
-  color: grey;
   display: flex;
   font-size: 12px;
   font-weight: 200;
@@ -26,12 +26,12 @@ export const ButtonLink = styled(Link)`
   text-transform: uppercase;
 
   &:hover {
-    background-color: dodgerblue;
+    background-color: ${Color.RON};
     cursor: pointer;
   }
 
   &:disabled {
-    background-color: grey;
+    background-color: ${Color.HARRY};
     cursor: default;
   }
 `;
